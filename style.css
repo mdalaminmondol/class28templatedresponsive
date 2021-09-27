@@ -1,0 +1,109 @@
+body,h1,h2,h3,h4,h5,h6,p,div,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* header part start */
+header img{
+    width: 100px;
+}
+.menu .nav-link{
+    padding-left: 20px !important;
+    font-size: 17px !important;
+}
+/* header part end */
+
+/* slider part start */
+.slider{
+    background: #f9f9ff;
+}
+.slider-content{
+  margin-top: 100px;
+}
+/* slider part end */
+
+/* nambr part start */
+ .namber{
+     background: #0078d7;
+ }
+/* namber part end */
+
+/* bloge part start */
+.blog{
+    background:#f9f9ff;
+}
+.blo-itam{
+    background-color: #fff;
+}
+.blo-itam h1{
+    background: #e6e6eeed;
+    height:100px;
+    width: 100px;
+    margin: auto;
+    line-height: 100px;
+    border-radius: 50%;
+
+}
+/* bloge part end */
+
+/* team part start */
+.team{
+   margin: 100px 0;
+}
+
+.team .card img{
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+/* team part end */
+
+/* form part start */
+.contact{
+    background:#f9f9ff ;
+    padding: 50px 0;
+}
+.contact .contact-itams{
+    margin-top: 150px;
+}
+/* form part end */
+
+/* footer part start */
+footer{
+    background: #04091e;
+}
+/* footer part end */
+
+/* resposnive part start */
+@media (max-width:992px) {
+    .card.shadow.border-0 {
+        margin-bottom: 80px;
+    }
+    .contact {
+        margin-top: -99px;
+    }
+}
+@media (max-width:768px) {
+    .slider-content {
+        margin-top: 35px;
+    }
+    .contact .contact-itams {
+        margin-top: -23px;
+    }
+    .contact {
+        margin-top: -109px;
+    }
+
+}
+@media (max-width:576px) {
+    h6 {
+        margin-top: 20px;
+    }
+    .contact .contact-itams {
+        margin-top: -23px;
+    }
+    .contact {
+        margin-top: -105px;
+    }
+}
